@@ -32,7 +32,7 @@ def deleteClient(clientName):
         clients = clients.replace(clientName + ',', '')
     else:
         print('Client is not in clients List')
-#Añadir como a los nombres
+#Añadir coma a los nombres
 def _add_comma():
     global clients
     clients += ','
